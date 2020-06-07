@@ -1,14 +1,14 @@
 {
-  "name": "srcds-log-receiver",
+  "name": "better-srcds-log-receiver",
   "version": "1.0.0",
-  "description": "A simple too to receive srcds logs",
+  "description": "A simple tool to receive srcds logs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenSourceLAN/srcds-log-receiver.git"
+    "url": "git+https://github.com/Nicell/srcds-log-receiver.git"
   },
   "keywords": [
     "srcds",
@@ -17,16 +17,15 @@
     "strike",
     "tf2"
   ],
-  "author": "Chris Holman",
+  "author": "Nick Winans",
   "license": "GPL-3.0",
   "dependencies": {
     "moment": "^2.13.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "bugs": {
-    "url": "https://github.com/OpenSourceLAN/srcds-log-receiver/issues"
+    "url": "https://github.com/Nicell/srcds-log-receiver/issues"
   },
-  "homepage": "https://github.com/OpenSourceLAN/srcds-log-receiver#readme",
+  "homepage": "https://github.com/Nicell/srcds-log-receiver#readme",
   "typings": "./index.d.ts"
 }

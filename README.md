@@ -1,4 +1,6 @@
-### Srcds Log Receiver
+### Better Srcds Log Receiver
+
+> This is my forked package of srcds-log-receiver. Updates will be upstreamed when possible
 
 A library to receive logs directly from a Source dedicated server (srcds) via 
 its UDP log transport (`logaddress_add`). As these logs are sent live during
@@ -11,11 +13,11 @@ See further below for usage information.
 
 # Library usage
 
-`npm install --save srcds-log-receiver`
+`npm install --save better-srcds-log-receiver`
 
 Javascript example, but Typecript is also supported:
 ```
-var logReceiver = require("srcds-log-receiver");
+var logReceiver = require("better-srcds-log-receiver");
 var options = {
 	port: 9871  // this is the default
 };
